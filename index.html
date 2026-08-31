@@ -411,593 +411,106 @@
 
 
 
-    <!-- ================================
-     SECCIÓN DE MANTENIMIENTO
-================================ -->
+        <!-- =========================
+             MANTENIMIENTO
+        ========================== -->
 
-<section class="maintenance-section" id="mantenimiento">
+        <section
+            class="maintenance"
+            id="mantenimiento"
+        >
 
-    <div class="maintenance-wrapper">
-
-        <!-- Imagen -->
-        <div class="maintenance-image">
-            <img 
-                src="img/mantenimiento-silla.jpg"
-                alt="Técnico realizando mantenimiento a silla de ruedas"
-            >
-        </div>
+            <div class="container maintenance-grid">
 
 
-        <!-- Contenido -->
-        <div class="maintenance-content">
+                <div class="maintenance-item">
 
-            <!-- Información principal -->
-            <div class="maintenance-intro">
-
-                <h2>
-                    Mantenimiento que<br>
-                    garantiza su tranquilidad
-                </h2>
-
-                <p>
-                    Nuestro servicio técnico especializado asegura
-                    que sus equipos siempre funcionen de manera
-                    segura y confiable.
-                </p>
-
-                <a href="#" class="maintenance-button">
-                    Conoce nuestro servicio
-                    <span>›</span>
-                </a>
-
-            </div>
-
-
-            <!-- Servicios -->
-            <div class="maintenance-services">
-
-                <!-- Servicio 1 -->
-                <div class="maintenance-service">
-
-                    <div class="service-icon">
-                        ☑
-                    </div>
-
-                    <h3>
-                        Revisión completa
-                    </h3>
-
-                    <p>
-                        Evaluamos cada componente para
-                        asegurar su correcto funcionamiento.
-                    </p>
-
-                </div>
-
-
-                <!-- Servicio 2 -->
-                <div class="maintenance-service">
-
-                    <div class="service-icon">
+                    <div class="maintenance-icon">
                         🔧
                     </div>
 
-                    <h3>
-                        Mantenimiento<br>
-                        preventivo
-                    </h3>
+                    <div>
+                        <h3>
+                            Mantenimiento
+                            especializado
+                        </h3>
 
-                    <p>
-                        Prevenimos fallas y prolongamos
-                        la vida útil de sus equipos.
-                    </p>
+                        <p>
+                            Alargamos la vida útil
+                            de tus equipos.
+                        </p>
+                    </div>
 
                 </div>
 
 
-                <!-- Servicio 3 -->
-                <div class="maintenance-service">
+                <div class="maintenance-item">
 
-                    <div class="service-icon">
-                        ⚙
+                    <div class="maintenance-icon">
+                        ✓
                     </div>
 
-                    <h3>
-                        Reparaciones<br>
-                        confiables
-                    </h3>
+                    <div>
+                        <h3>
+                            Revisión y
+                            diagnóstico
+                        </h3>
 
-                    <p>
-                        Solucionamos problemas con repuestos
-                        originales y técnicos capacitados.
-                    </p>
+                        <p>
+                            Evaluamos y dejamos tus
+                            equipos como nuevos.
+                        </p>
+                    </div>
 
                 </div>
 
 
-                <!-- Servicio 4 -->
-                <div class="maintenance-service">
+                <div class="maintenance-item">
 
-                    <div class="service-icon">
-                        ⌂
+                    <div class="maintenance-icon">
+                        🛡
                     </div>
 
-                    <h3>
-                        Servicio a<br>
-                        domicilio
-                    </h3>
+                    <div>
+                        <h3>
+                            Repuestos
+                            originales
+                        </h3>
 
-                    <p>
-                        Vamos hasta su hogar para su comodidad
-                        y seguridad.
-                    </p>
+                        <p>
+                            Garantizamos calidad
+                            y seguridad.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="maintenance-item">
+
+                    <div class="maintenance-icon">
+                        🏠
+                    </div>
+
+                    <div>
+                        <h3>
+                            Servicio a
+                            domicilio
+                        </h3>
+
+                        <p>
+                            Vamos hasta tu hogar
+                            para ayudarte.
+                        </p>
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
 
-        <!-- Frase inferior -->
-        <div class="maintenance-bottom">
-
-            <span class="bottom-icon">♢</span>
-
-            <strong>
-                Mantenimiento regular =
-            </strong>
-
-            Mayor seguridad +
-            Menos imprevistos +
-            Más años de uso
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<style>
-
-/* =====================================
-   CONTENEDOR PRINCIPAL
-===================================== */
-
-.maintenance-section {
-    width: 100%;
-    padding: 20px 0;
-    background: #ffffff;
-}
-
-.maintenance-wrapper {
-    width: min(1180px, 92%);
-    margin: auto;
-
-    display: grid;
-
-    /*
-       Imagen | Contenido
-    */
-    grid-template-columns: 235px 1fr;
-
-    background: #f1f6fc;
-
-    border: 1px solid #c8d9eb;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    position: relative;
-}
-
-
-/* =====================================
-   IMAGEN
-===================================== */
-
-.maintenance-image {
-    width: 100%;
-    height: 100%;
-    min-height: 285px;
-
-    overflow: hidden;
-}
-
-.maintenance-image img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-
-    object-position: center;
-}
-
-
-/* =====================================
-   CONTENIDO
-===================================== */
-
-.maintenance-content {
-
-    display: grid;
-
-    grid-template-columns: 290px 1fr;
-
-    min-height: 250px;
-}
-
-
-/* =====================================
-   INTRO
-===================================== */
-
-.maintenance-intro {
-
-    padding: 28px 25px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.maintenance-intro h2 {
-
-    margin: 0 0 12px;
-
-    color: #104b91;
-
-    font-size: 23px;
-
-    line-height: 1.2;
-
-    font-weight: 800;
-}
-
-.maintenance-intro p {
-
-    margin: 0 0 18px;
-
-    color: #303944;
-
-    font-size: 12px;
-
-    line-height: 1.55;
-}
-
-
-/* =====================================
-   BOTÓN
-===================================== */
-
-.maintenance-button {
-
-    display: inline-flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    gap: 15px;
-
-    width: fit-content;
-
-    padding: 11px 17px;
-
-    background: #0755a5;
-
-    color: #ffffff;
-
-    border-radius: 7px;
-
-    font-size: 12px;
-
-    font-weight: 700;
-
-    transition: .25s ease;
-}
-
-.maintenance-button:hover {
-
-    background: #063f7b;
-
-    transform: translateY(-2px);
-}
-
-.maintenance-button span {
-
-    font-size: 21px;
-
-    line-height: 10px;
-}
-
-
-/* =====================================
-   SERVICIOS
-===================================== */
-
-.maintenance-services {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    border-left: 1px solid #bdd0e5;
-}
-
-
-/* =====================================
-   CADA SERVICIO
-===================================== */
-
-.maintenance-service {
-
-    padding: 25px 15px 15px;
-
-    text-align: center;
-
-    border-right: 1px solid #c7d7e8;
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-}
-
-.maintenance-service:last-child {
-
-    border-right: none;
-}
-
-
-/* =====================================
-   ICONOS
-===================================== */
-
-.service-icon {
-
-    width: 45px;
-
-    height: 45px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    color: #0755a5;
-
-    font-size: 32px;
-
-    margin-bottom: 8px;
-}
-
-
-/* =====================================
-   TÍTULO SERVICIO
-===================================== */
-
-.maintenance-service h3 {
-
-    margin: 0 0 9px;
-
-    color: #104b91;
-
-    font-size: 13px;
-
-    line-height: 1.25;
-
-    font-weight: 800;
-}
-
-
-/* =====================================
-   DESCRIPCIÓN
-===================================== */
-
-.maintenance-service p {
-
-    margin: 0;
-
-    color: #333a43;
-
-    font-size: 11px;
-
-    line-height: 1.55;
-
-    max-width: 150px;
-}
-
-
-/* =====================================
-   FRANJA INFERIOR
-===================================== */
-
-.maintenance-bottom {
-
-    grid-column: 1 / -1;
-
-    border-top: 1px solid #c5d6e8;
-
-    padding: 12px 20px;
-
-    text-align: center;
-
-    color: #0755a5;
-
-    font-size: 13px;
-
-    line-height: 1.4;
-
-    background: rgba(255,255,255,.25);
-}
-
-.bottom-icon {
-
-    font-size: 18px;
-
-    margin-right: 8px;
-
-    vertical-align: middle;
-}
-
-
-/* =====================================
-   TABLET
-===================================== */
-
-@media (max-width: 1000px) {
-
-    .maintenance-wrapper {
-
-        grid-template-columns: 200px 1fr;
-    }
-
-    .maintenance-content {
-
-        grid-template-columns: 1fr;
-    }
-
-    .maintenance-intro {
-
-        padding: 22px;
-    }
-
-    .maintenance-services {
-
-        border-left: none;
-
-        border-top: 1px solid #bdd0e5;
-    }
-
-}
-
-
-/* =====================================
-   MÓVIL
-===================================== */
-
-@media (max-width: 700px) {
-
-    .maintenance-section {
-
-        padding: 15px 0;
-    }
-
-    .maintenance-wrapper {
-
-        width: 94%;
-
-        display: block;
-
-        border-radius: 15px;
-    }
-
-    .maintenance-image {
-
-        height: 230px;
-
-        min-height: 0;
-    }
-
-    .maintenance-content {
-
-        display: block;
-    }
-
-    .maintenance-intro {
-
-        padding: 25px 20px;
-    }
-
-    .maintenance-intro h2 {
-
-        font-size: 22px;
-    }
-
-    .maintenance-services {
-
-        display: grid;
-
-        grid-template-columns: 1fr 1fr;
-
-        border-top: 1px solid #bdd0e5;
-    }
-
-    .maintenance-service {
-
-        min-height: 190px;
-
-        padding: 20px 12px;
-
-        border-bottom: 1px solid #c7d7e8;
-    }
-
-    .maintenance-service:nth-child(2) {
-
-        border-right: none;
-    }
-
-    .maintenance-service:nth-child(3) {
-
-        border-bottom: none;
-    }
-
-    .maintenance-service:nth-child(4) {
-
-        border-right: none;
-
-        border-bottom: none;
-    }
-
-    .maintenance-bottom {
-
-        font-size: 11px;
-
-        padding: 13px 10px;
-    }
-}
-
-
-/* =====================================
-   MÓVILES PEQUEÑOS
-===================================== */
-
-@media (max-width: 450px) {
-
-    .maintenance-services {
-
-        grid-template-columns: 1fr;
-    }
-
-    .maintenance-service {
-
-        border-right: none !important;
-
-        border-bottom: 1px solid #c7d7e8 !important;
-
-        min-height: auto;
-
-        padding: 20px;
-    }
-
-    .maintenance-service:last-child {
-
-        border-bottom: none !important;
-    }
-
-    .maintenance-bottom {
-
-        font-size: 10px;
-    }
-}
-
-</style>
 
         <!-- =========================
              NOSOTROS
